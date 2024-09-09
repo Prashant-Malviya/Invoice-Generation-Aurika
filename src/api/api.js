@@ -1,0 +1,1 @@
+export const url = 'https://mocki.io/v1/032d64e0-490e-4d61-be09-08650502c569';

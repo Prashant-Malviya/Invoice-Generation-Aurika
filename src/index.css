@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#invoice-preview {
+    max-width: 100%; /* Ensure the container doesn't overflow */
+    width: 100%; /* Take full width */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Ensure the table and other elements are responsive */
+  table {
+    width: 100%; /* Make table full width */
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  img {
+    max-width: 100%; /* Ensure images like logo and signature are responsive */
+    height: auto;
+  }
+  
